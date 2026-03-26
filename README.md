@@ -65,7 +65,7 @@ Read from stdin, write to stdout:
 cat file.py | recess -
 ```
 
-### Vscode Integration
+### VS Code Integration
 
 VS Code's [Custom Local Formatters](https://code.visualstudio.com/docs/editor/custom-layout#_custom-local-formatters) feature lets you pipe a file through a shell command on save. You can chain `ruff` and `recess` together so that linting, formatting, and the blank-line fix all happen in one pass:
 
