@@ -39,7 +39,7 @@ uv tool install git+https://github.com/alstonlo/recess.git
 
 Using pixi:
 ```
-pixi add --pypi git+https://github.com/alstonlo/recess.git
+pixi add --pypi 'recess @ git+https://github.com/alstonlo/recess.git'
 ```
 
 ## Usage
