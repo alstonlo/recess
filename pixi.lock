@@ -420,7 +420,7 @@ packages:
 - pypi: ./
   name: recess
   version: 0.1.0
-  sha256: 17f757cd03b2c40b25ce442d498860d8a07761329c6c18e76ca2cabf885189eb
+  sha256: aa620ab3b57c03b7c5d31f7e9b75014d3507ec11ce6e3f221c6eb1004e851262
   requires_python: '>=3.11'
 - conda: https://conda.anaconda.org/conda-forge/linux-64/ruff-0.15.7-h7805a7d_1.conda
   noarch: python
