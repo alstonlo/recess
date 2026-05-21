@@ -151,7 +151,11 @@ def collect_files(paths: list[str]) -> list[Path]:
     for p in paths:
         path = Path(p)
         if path.is_dir():
-            result.extend(sorted(path.rglob("*.py")))
+            result.extend(
+                f
+                for f in sorted(path.rglob("*.py"))
+                if not any(part.startswith(".") for part in f.relative_to(path).parts)
+            )
         elif path.is_file():
             result.append(path)
         else:
